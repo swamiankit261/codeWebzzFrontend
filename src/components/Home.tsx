@@ -18,7 +18,7 @@ const Home: React.FC = () => {
         <>
             <Navbar />
 
-            <div className="flex md:h-screen bg-primary-light py-5 md:py-2">
+            <div className={`flex md:h-screen py-5 md:py-2 shadow-sm`}>
                 <div className="text-center w-full flex flex-col justify-center rounded-r-lg ">
                     <p className="text-3xl"> <span className='text-secondary'>Website</span></p>
                     <p className="text-3xl">Design <span className='text-secondary'>&</span> Development</p>
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
 
                 </div>
                 {/* <div className="bg-gray-400 text-center w-1/2 rounded-l-lg">
-                    <img className='h-screen w-full rounded-l-lg' src={webDav} alt="" />
+                    <img className='h-screen w-full rounded-l-lg' src={man_up} alt="" />
                 </div> */}
 
             </div>
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className="lg:w-1/2 place-content-center place-items-center leading-loose pr-5">
                     <p className='text-2xl mb-4'>Design <span className='text-secondary'>&</span> Development</p>
-                    <p className="">codeweb is leading website designing and <span className='text-secondary'>development</span> comapny in Jaipur. We develop different type of dynamic websites like – Matrimonial, Classified, E-Commerce and many more web applications. We are well growth <span className='text-secondary'>web design</span> company in Jaipur and India with new technologies. We make a friendly relationship with our clients and always ready to help them and make out them from their problems.</p>
+                    <p className="lg:text-start text-center">codeweb is leading website designing and <span className='text-secondary'>development</span> comapny in Jaipur. We develop different type of dynamic websites like – Matrimonial, Classified, E-Commerce and many more web applications. We are well growth <span className='text-secondary'>web design</span> company in Jaipur and India with new technologies. We make a friendly relationship with our clients and always ready to help them and make out them from their problems.</p>
                 </div>
             </div>
 

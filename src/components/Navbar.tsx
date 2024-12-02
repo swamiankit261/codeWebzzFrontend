@@ -12,8 +12,8 @@ const Navbar: React.FC = () => {
 
     return (
         <>
-            <div className='px-6 align-middle'>
-                <div className="flex justify-between">
+            <div className='px-6 align-middle py-3 shadow'>
+                <div className="flex justify-between align-middle">
                     <div className='text-2xl font-semibold cursor-pointer'>CodeWebzz <span className='text-3xl text-secondary'>.</span></div>
 
                     <div><RxHamburgerMenu className='text-3xl cursor-pointer hover:text-secondary' onClick={toggleCollapsed} /></div>
