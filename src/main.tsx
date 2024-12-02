@@ -14,11 +14,12 @@ const router = createBrowserRouter(
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='*' element={<NotFound />} /> */}
     </Route>
-  )
+  ),
+  { basename: "/codeWebzzFrontend" }
 )
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
