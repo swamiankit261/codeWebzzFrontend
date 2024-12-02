@@ -18,17 +18,32 @@ const Home: React.FC = () => {
         <>
             <Navbar />
 
-            <div className={`flex md:h-screen py-5 md:py-2 shadow-sm`}>
+            <div className={`flex relative md:h-screen py-5 md:py-2 shadow-sm`}>
+                <div className="absolute animate-spin hidden lg:block top-20 left-28">
+                    <div className="animate-pulse relative">
+                        <div className=" w-10 border-2 border-primary-dark rounded rotate-45"></div>
+                        <div className=" w-10 border-2 border-primary-dark rounded -rotate-45"></div>
+                    </div>
+
+                </div>
                 <div className="text-center w-full flex flex-col justify-center rounded-r-lg ">
                     <p className="text-3xl"> <span className='text-secondary'>Website</span></p>
                     <p className="text-3xl">Design <span className='text-secondary'>&</span> Development</p>
                     <p className='text-wrap text-center'>A minimal, clean, and AJAX driven free portfolio template created by the fine folks at Untree.co. Read our template license here.</p>
                     <div className='bg-orange-400 p-1 w-52 rounded-lg mx-auto mt-3'></div>
-                    <button className='hover:bg-secondary relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-4 p-2 text-primary-dark'>More about my
+
+                    <button className='hover:bg-secondary z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-4 p-2 text-primary-dark'>More about my
                         {/* <span className='bg-secondary absolute -right-2.5 animate-ping mr-3 p-1 rounded-full inline-flex'></span>
                         <span className='bg-secondary p-1 absolute rounded-full inline-flex'></span> */}
 
                     </button>
+
+                </div>
+                <div className="absolute animate-spin hidden lg:block bottom-28 right-28">
+                    <div className="animate-pulse relative">
+                        <div className=" w-10 border-2 border-primary-dark rounded rotate-45"></div>
+                        <div className=" w-10 border-2 border-primary-dark rounded -rotate-45"></div>
+                    </div>
 
                 </div>
                 {/* <div className="bg-gray-400 text-center w-1/2 rounded-l-lg">
