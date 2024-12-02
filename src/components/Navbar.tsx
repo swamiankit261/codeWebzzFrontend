@@ -1,0 +1,27 @@
+import React, { useState } from 'react'
+import { RxHamburgerMenu } from "react-icons/rx";
+import SideBar from './SideBar';
+
+const Navbar: React.FC = () => {
+
+    const [collapsed, setCollapsed] = useState<boolean>(true);
+
+    const toggleCollapsed = (): void => {
+        setCollapsed(!collapsed);
+    }
+
+    return (
+        <>
+            <div className='px-6 align-middle'>
+                <div className="flex justify-between">
+                    <div className='text-2xl font-semibold cursor-pointer'>CodeWebzz <span className='text-3xl text-secondary'>.</span></div>
+
+                    <div><RxHamburgerMenu className='text-3xl cursor-pointer hover:text-secondary' onClick={toggleCollapsed} /></div>
+                </div>
+                <SideBar toggleCollapsed={toggleCollapsed} collapsed={collapsed} />
+            </div>
+        </>
+    )
+}
+
+export default Navbar
