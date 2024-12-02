@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <p className='text-center my-3 text-primary-dark'>Copyright © 2024. All Rights Reserved. — Designed By Codeweb</p>
+            <p className='text-center my-3 text-primary-dark'>Copyright  All Rights lsdhfkshgorgyoerugl weoiuow owero eo bhaskar. — Designed By Codeweb</p>
         </>
     )
 }

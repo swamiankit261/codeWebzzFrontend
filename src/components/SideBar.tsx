@@ -20,7 +20,9 @@ const SideBar: React.FC<myProps> = ({ toggleCollapsed, collapsed }) => {
                     </NavLink>
                     <NavLink to="/aboutUs"><div className="hover:text-secondary cursor-pointer my-2">About Us</div></NavLink>
                     <div className="hover:text-secondary cursor-pointer mb-2">Services</div>
-                    <div className="hover:text-secondary cursor-pointer">Contact us</div>
+                    <NavLink to="/contact">
+                        <div className="hover:text-secondary cursor-pointer">Contact us</div>
+                    </NavLink>
                 </div>
             </div >
 

@@ -52,7 +52,7 @@ const Home: React.FC = () => {
 
             </div>
 
-            <div className="flex flex-wrap font-serif">
+            <div className="flex flex-wrap font-serif ">
                 <div className="lg:w-1/2 mx-auto px-10">
                     <img className='' src={webDav} alt="" />
                 </div>
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
                 </div>
             </div>
 
-            <div className=" font-serif pt-4">
+            <div className=" font-serif pt-20">
                 <div className="text-center flex flex-col justify-between h-20">
                     <p className="text-secondary font-mono">We Offer Services That Work</p>
                     <h1 className="text-3xl font-medium font-serif">Perfect solutions for you</h1>
@@ -149,7 +149,7 @@ const Home: React.FC = () => {
 
             </div>
 
-            <div className="mb-10">
+            <div className="my-20">
                 <p className='place-content-center place-self-center my-4 text-3xl font-serif'>Our view</p>
                 <div className="flex flex-wrap content-center justify-evenly">
                     <div className="w-80 cursor-pointer border-2 overflow-hidden">
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
                 </div> */}
             </div>
 
-            <div className="">
+            <div className="py-10">
                 <div className="bg-secondary p-1 w-1/2 mx-auto rounded-t-xl "></div>
                 <div className="text-center mt-7 flex flex-col justify-between h-20">
                     <p className='text-secondary font-mono'>Working Process</p>
@@ -231,7 +231,7 @@ const Home: React.FC = () => {
                 </div>
             </div>
 
-            <div className="py-16 flex flex-wrap justify-evenly">
+            <div className="py-20 flex flex-wrap justify-evenly">
                 <div className="group shadow-lg font-serif rounded-xl w-96 flex flex-col justify-center gap-4 p-8">
                     <p className='text-2xl'><FaPhoneFlip className='rotate-90 transition-all duration-500 ease-in-out group-hover:rotate-180' /></p>
                     <h1 className="text-secondary text-xl">FREE CONSULTATION
