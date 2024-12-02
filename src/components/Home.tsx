@@ -8,10 +8,6 @@ import { TbChartInfographic } from "react-icons/tb";
 import { FaSearchengin } from "react-icons/fa";
 import man_up from "../assets/man_up.jpg";
 import webDav from "../assets/dev.png";
-// import { MdOutlineLaunch } from "react-icons/md";
-import Carousel from './Carousel';
-import Testimonials from './Testimonials';
-import DarkModeToggle from './DarkModeToggle';
 import taili from "../assets/vrd-creative.webp";
 import daile from "../assets/vrd-help-desk.webp"
 import Footer from './Footer';
@@ -265,26 +261,6 @@ const Home: React.FC = () => {
                 </div>
 
             </div>
-
-            {/* <div className="">
-                <div className="text-center flex flex-col justify-between h-20">
-                    <h1 className='text-3xl font-medium font-serif'>Testimonials</h1>
-                    <p className='text-secondary font-mono'>What clients say...</p>
-                    <p className='bg-orange-400 p-0.5 w-24 rounded-lg mx-auto'></p>
-                </div>
-                <div className="">
-                    <div className="">
-                        <img src={webDav} alt="" />
-                    </div>
-                    <div className="">
-
-                        <Carousel />
-                        <Testimonials />
-                        <DarkModeToggle />
-
-                    </div>
-                </div>
-            </div> */}
             <Footer />
         </>
     )
