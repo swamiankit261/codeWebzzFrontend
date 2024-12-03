@@ -15,7 +15,7 @@ const AboutUs: React.FC = () => {
             </div>
             <div className="font-serif mb-20">
                 <div className="text-center leading-10">
-                    <h1 className='text-4xl font-semibold my-5'>Your Digital Success Partner</h1>
+                    <h1 className='text-4xl font-semibold my-5'>What Make Us Different</h1>
                     <p>At WebElite, we are your one-stop destination for a wide range of digital services that empower your online presence. Whether you’re a startup looking to make a splash, an established business seeking to revamp your digital strategy, or an entrepreneur with a groundbreaking idea, our services are tailored to meet your unique needs.</p>
                     <h1 className='text-2xl mt-4'>“Discover how we can elevate your digital journey”</h1>
 

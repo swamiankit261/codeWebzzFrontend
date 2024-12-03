@@ -12,6 +12,7 @@ import taili from "../assets/vrd-creative.webp";
 import daile from "../assets/vrd-help-desk.webp"
 import Footer from './Footer';
 import { FaPhoneFlip } from 'react-icons/fa6';
+import { NavLink } from 'react-router';
 
 const Home: React.FC = () => {
     return (
@@ -29,14 +30,11 @@ const Home: React.FC = () => {
                 <div className="text-center w-full flex flex-col justify-center rounded-r-lg ">
                     <p className="text-3xl"> <span className='text-secondary'>Website</span></p>
                     <p className="text-3xl">Design <span className='text-secondary'>&</span> Development</p>
-                    <p className='text-wrap text-center'>A minimal, clean, and AJAX driven free portfolio template created by the fine folks at Untree.co. Read our template license here.</p>
+                    <p className='text-wrap text-center my-2 text-lg'>At CodeWebzz, we are dedicated to delivering top-notch digital solutions that meet your unique business needs.</p>
                     <div className='bg-orange-400 p-1 w-52 rounded-lg mx-auto mt-3'></div>
-
-                    <button className='hover:bg-secondary z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-4 p-2 text-primary-dark'>More about my
-                        {/* <span className='bg-secondary absolute -right-2.5 animate-ping mr-3 p-1 rounded-full inline-flex'></span>
-                        <span className='bg-secondary p-1 absolute rounded-full inline-flex'></span> */}
-
-                    </button>
+                    <NavLink to='/contact' className='hover:bg-secondary z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-4 p-2 text-primary-dark'>
+                        Contact Us
+                    </NavLink>
 
                 </div>
                 <div className="absolute animate-spin hidden lg:block bottom-28 right-28">
@@ -69,7 +67,7 @@ const Home: React.FC = () => {
                     <p className="bg-accent p-0.5 w-28 rounded-lg mx-auto"></p>
                 </div>
                 <div className="flex flex-wrap font-serif">
-                    <div className="flex flex-col gap-4 lg:w-1/3">
+                    <div className="flex flex-col gap-16 lg:w-1/3">
                         <div className=" group flex place-items-center gap-5 p-2 md:text-left">
                             <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:text-secondary group-hover:border-secondary">
                                 <span><CgWebsite className='group-hover:animate-bounce' /></span>
@@ -109,7 +107,7 @@ const Home: React.FC = () => {
                         <img className='w-1/2' src={man_up} alt="" />
 
                     </div>
-                    <div className="flex flex-col gap-4 lg:w-1/3">
+                    <div className="flex flex-col gap-16 lg:w-1/3">
                         <div className=" group flex place-items-center gap-5  p-2 md:text-left">
                             <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:text-secondary group-hover:border-secondary">
                                 <span><IoCartOutline className='group-hover:animate-bounce' /></span>
@@ -191,7 +189,7 @@ const Home: React.FC = () => {
                         </div>
 
                     </div>
-                    <div className="hidden lg:block border border-secondary border-dotted w-[17.5vw] absolute top-14 z-10 h-0"></div>
+                    <div className="hidden lg:block border border-secondary border-dotted w-[16.2vw] absolute top-14 z-10 h-0"></div>
 
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
@@ -204,7 +202,7 @@ const Home: React.FC = () => {
                         </div>
 
                     </div>
-                    <div className="hidden lg:block border border-secondary border-dotted w-[17.5vw] absolute top-14 left-[16%] z-10 h-0"></div>
+                    <div className="hidden lg:block border border-secondary border-dotted w-[16.5vw] absolute top-14 left-[16%] z-10 h-0"></div>
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
                             <span><GrAnchor /></span>
@@ -212,17 +210,17 @@ const Home: React.FC = () => {
                         <div className="text-center">
                             <p className="text-2xl font-medium text-secondary">
                                 DEVELOPMENT</p>
-                            <p className="">We develop a website on secure MVC/CMS technologies like – PHP, Codeigniter, ASP.NET, WordPress, Joomla etc.</p>
+                            <p className="">We develop a website on secure MVC/CMS technologies like – PHP, react, javascrypt, WordPress etc.</p>
                         </div>
 
                     </div>
-                    <div className="hidden lg:block border border-secondary border-dotted w-[17.5vw] absolute top-14 right-[16%] z-10 h-0"></div>
+                    <div className="hidden lg:block border border-secondary border-dotted w-[16.4vw] absolute top-14 right-[16.2%] z-10 h-0"></div>
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
                             <span><GrAnchor /></span>
                         </div>
                         <div className="text-center">
-                            <p className="text-2xl font-medium">
+                            <p className="text-2xl font-medium text-secondary">
                                 TESTING & LAUNCH</p>
                             <p className="">Before launching the website we test all validations, fonts, Spellings and Site Speed. And also minify the files for improving speed.</p>
                         </div>

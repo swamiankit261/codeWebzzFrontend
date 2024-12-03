@@ -18,10 +18,10 @@ const ContactUs: React.FC = () => {
                         <h1>Our Contact Details</h1>
 
                     </div>
-                    <div className="">
-                        <p>Address: 001, Om Plaza Apartments, Sector 19, Indira Nagar, Lucknow, Uttar Pradesh, India</p>
-                        <p>Email:<a href='mailto:codewebzzinfo@gmail.com' className='text-secondary'>codewebzzinfo@gmail.com</a></p>
-                        <p>Phone:<a href='tel:' className='text-secondary text-center align-middle'>90928375982</a></p>
+                    <div className="font-sans">
+                        <p><span className='text-xl'>Address :</span> <span>6/431, Gaj Path, Hans Vihar, RIICO Industrial Area, Mansarovar, Jaipur, Rajasthan 302020</span></p>
+                        <p><span className='text-lg'>Email : </span><a href='mailto:codewebzzinfo@gmail.com' className='text-secondary'>codewebzzinfo@gmail.com</a></p>
+                        <p><span className='text-lg'>Phone : </span><a href='tel:8824451107' className='text-secondary text-center'>8824451107</a></p>
 
                     </div>
                     <div className="flex gap-4 mt-3 text-xl text-primary-light">
