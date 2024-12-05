@@ -49,41 +49,43 @@ const ContactUs: React.FC = () => {
 
                 <div className="font-serif text-center shadow-2xl rounded-lg rounded-tl-2xl py-4 lg:w-1/2 align-middle m-auto">
                     <div className="">
-                        <h1 className='text-2xl font-semibold'>Let’s Talk About Your Project</h1>
+                        <legend className='text-2xl font-semibold'>Let’s Talk About Your Project</legend>
                     </div>
-                    <div className="">
+                    <fieldset>
+                        {/* <div className=""> */}
                         <div className=" flex flex-wrap">
                             <div className=' w-full lg:w-1/2 p-4'>
-                                <label className='block text-start hover:text-secondary' htmlFor="">Name</label>
-                                <input className='w-full border-2 rounded-md p-1' type="text" placeholder='Company Name' />
+                                <label className='block text-start hover:text-secondary' htmlFor="name">Name</label>
+                                <input className='w-full border-2 rounded-md p-1 focus:outline-none focus:border-secondary focus:ring-1 ' pattern='.{5/10}' id='name' type="text" placeholder='Name' />
 
                             </div>
                             <div className='w-full lg:w-1/2 p-4'>
-                                <label className='block text-start hover:text-secondary' htmlFor="">Email</label>
-                                <input className='w-full border-2 rounded-md p-1' type="text" placeholder='Company Name' />
+                                <label className='block text-start hover:text-secondary' htmlFor="email">Email</label>
+                                <input className='w-full border-2 rounded-md p-1 focus:outline-none focus:border-secondary focus:ring-0' type="email" id='email' placeholder='Email' />
 
                             </div>
                             <div className='w-full lg:w-1/2 p-4'>
-                                <label className='block text-start hover:text-secondary' htmlFor="">Phone Number</label>
-                                <input className='w-full border-2 rounded-md p-1' type="text" placeholder='Company Name' />
+                                <label className='block text-start hover:text-secondary' htmlFor="phone">Phone Number</label>
+                                <input className='w-full border-2 rounded-md p-1 font-sans focus:outline-none focus:border-secondary focus:ring-0' type="number" pattern='.{8}' id='phone' placeholder='Phone Number' />
 
                             </div>
                             <div className='w-full lg:w-1/2 p-4'>
-                                <label className='block text-start hover:text-secondary' htmlFor="">Company Name</label>
-                                <input className='w-full border-2 rounded-md p-1' type="text" placeholder='Company Name' />
+                                <label className='block text-start hover:text-secondary' htmlFor="company">Company Name</label>
+                                <input className='w-full border-2 rounded-md p-1 focus:outline-none focus:border-secondary focus:ring-0' type="text" id='company' placeholder='Company Name' />
 
                             </div>
                         </div>
                         <div className=" p-2">
-                            <label className='text-secondary' htmlFor="">Project Details</label>
-                            <textarea className='w-full p-1 border' name="" id="" rows={4} placeholder='What is your project about?' />
+                            <label className='text-secondary' htmlFor="details">Project Details</label>
+                            <textarea className='w-full p-1 border focus:outline-none focus:border-secondary' name="" id="details" rows={4} placeholder='What is your project about?' />
                         </div>
                         <div className="p-2">
-                            <label className='block text-start hover:text-secondary' htmlFor="">Any budget or timeline remarks?</label>
-                            <input className='border-2 w-full p-1' type="text" placeholder='Remarks' />
+                            <label className='block text-start hover:text-secondary' htmlFor="budget">Any budget or timeline remarks?</label>
+                            <input className='border-2 w-full p-1 focus:outline-none focus:border-secondary focus:ring-0' type="text" id='budget' placeholder='Remarks' />
                         </div>
-                    </div>
-                    <button className='hover:bg-secondary z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-4 p-2 text-primary-dark'>Submit</button>
+                        {/* </div> */}
+                        <button className='hover:bg-secondary z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-4 p-2 text-primary-dark'>Submit</button>
+                    </fieldset>
                 </div>
 
             </div>

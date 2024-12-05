@@ -68,7 +68,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className="flex flex-wrap font-serif">
                     <div className="flex flex-col gap-16 lg:w-1/3">
-                        <div className=" group flex place-items-center gap-5 p-2 md:text-left">
+                        <div className=" group flex place-items-center gap-5 p-2 md:text-left mt-10 lg:mt-1">
                             <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:text-secondary group-hover:border-secondary">
                                 <span><CgWebsite className='group-hover:animate-bounce' /></span>
                             </div>
