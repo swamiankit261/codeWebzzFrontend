@@ -177,7 +177,7 @@ const Home: React.FC = () => {
                     <p className='bg-accent p-0.5 w-24 rounded-lg mx-auto'></p>
 
                 </div>
-                <div className="flex flex-wrap justify-evenly relative lg:mt-5">
+                <div className="flex flex-wrap justify-evenly gap-5 lg:gap-0 relative lg:mt-5">
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
                             <span><FaRegHandshake /></span>
@@ -229,7 +229,7 @@ const Home: React.FC = () => {
                 </div>
             </div>
 
-            <div className="py-20 flex flex-wrap justify-evenly">
+            <div className="py-20 flex flex-wrap justify-evenly gap-10 lg:gap-0">
                 <div className="group shadow-lg font-serif rounded-xl w-96 flex flex-col justify-center gap-4 p-8">
                     <p className='text-2xl'><FaPhoneFlip className='rotate-90 transition-all duration-500 ease-in-out group-hover:rotate-180' /></p>
                     <h1 className="text-secondary text-xl">FREE CONSULTATION
