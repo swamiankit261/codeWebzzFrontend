@@ -5,7 +5,7 @@ import { GrAnchor } from "react-icons/gr";
 import { IoKeyOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import { TbChartInfographic } from "react-icons/tb";
-import { FaPhoneVolume, FaSearchengin } from "react-icons/fa";
+import { FaPhoneVolume, FaRegHandshake, FaSearchengin } from "react-icons/fa";
 import man_up from "../assets/man_up.jpg";
 import webDav from "../assets/dev.png";
 import taili from "../assets/vrd-creative.webp";
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
         <>
             <Navbar />
 
-            <div className={`flex relative md:h-screen py-5 md:py-2 shadow-sm mt-5`}>
+            <div className={`flex relative md:h-[35rem] py-5 md:py-2 shadow-sm mt-5`}>
                 <div className="absolute animate-spin hidden lg:block top-20 left-28">
                     <div className="animate-pulse relative">
                         <div className=" w-10 border-2 border-primary-dark rounded rotate-45"></div>
@@ -149,7 +149,7 @@ const Home: React.FC = () => {
 
             <div className="my-20">
                 <p className='place-content-center place-self-center my-4 text-3xl font-serif'>Our view</p>
-                <div className="flex flex-wrap content-center justify-evenly">
+                <div className="flex flex-wrap content-center justify-evenly gap-10 lg:gap-0">
                     <div className="w-80 cursor-pointer border-2 overflow-hidden">
                         <img className='w-full transition-transform duration-700 h-full hover:scale-110' src="https://i.pinimg.com/736x/0c/75/61/0c7561c9fd7b284f8a1e6294077bf0a0.jpg" alt="" />
 
@@ -177,10 +177,10 @@ const Home: React.FC = () => {
                     <p className='bg-accent p-0.5 w-24 rounded-lg mx-auto'></p>
 
                 </div>
-                <div className="flex flex-wrap justify-evenly relative">
+                <div className="flex flex-wrap justify-evenly relative lg:mt-5">
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
-                            <span><IoKeyOutline /></span>
+                            <span><FaRegHandshake /></span>
                         </div>
                         <div className="text-center ">
                             <p className="text-2xl font-medium text-secondary group-hover:text-accent">
@@ -189,11 +189,11 @@ const Home: React.FC = () => {
                         </div>
 
                     </div>
-                    <div className="hidden lg:block border border-secondary border-dotted w-[16.2vw] absolute top-14 z-10 h-0"></div>
+                    {/* <div className="hidden lg:block border border-secondary border-dotted w-[16.2vw] absolute top-14 z-10 h-0"></div> */}
 
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
-                            <span><IoKeyOutline /></span>
+                            <span><CgWebsite /></span>
                         </div>
                         <div className="text-center">
                             <p className="text-2xl font-medium text-secondary">
@@ -202,7 +202,7 @@ const Home: React.FC = () => {
                         </div>
 
                     </div>
-                    <div className="hidden lg:block border border-secondary border-dotted w-[16.5vw] absolute top-14 left-[16%] z-10 h-0"></div>
+                    {/* <div className="hidden lg:block border border-secondary border-dotted w-[16.5vw] absolute top-14 left-[16%] z-10 h-0"></div> */}
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
                             <span><GrAnchor /></span>
@@ -214,10 +214,10 @@ const Home: React.FC = () => {
                         </div>
 
                     </div>
-                    <div className="hidden lg:block border border-secondary border-dotted w-[16.4vw] absolute top-14 right-[16.2%] z-10 h-0"></div>
+                    {/* <div className="hidden lg:block border border-secondary border-dotted w-[16.4vw] absolute top-14 right-[16.2%] z-10 h-0"></div> */}
                     <div className=" group flex flex-col place-items-center gap-5  p-2 lg:w-1/4">
                         <div className="border-2 w-fit p-8 rounded-full text-2xl transition-colors duration-300 ease-in-out group-hover:bg-secondary group-hover:text-primary-light group-hover:border-secondary">
-                            <span><GrAnchor /></span>
+                            <span><TbChartInfographic /></span>
                         </div>
                         <div className="text-center">
                             <p className="text-2xl font-medium text-secondary">
@@ -269,7 +269,7 @@ const Home: React.FC = () => {
                         Call Now</p>
                     <a href='tel:8824451107' className=" text-center font-sans flex justify-center gap-2">
                         <span className='bg-secondary inline-block cursor-pointer rounded-full'>
-                            <FaPhoneVolume  className='m-1 mx-1.5 text-primary-light text-lg -rotate-12' />
+                            <FaPhoneVolume className='m-1 mx-1.5 text-primary-light text-lg -rotate-12' />
                         </span>
                         <span className='text-xl'>+918824451107</span>
                         {/* <button className=' hover:bg-secondary hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mt-5 p-2 text-primary-dark'>Schedule Now</button> */}
