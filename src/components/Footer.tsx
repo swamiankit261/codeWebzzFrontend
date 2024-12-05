@@ -57,9 +57,9 @@ const Footer: React.FC = () => {
                 <div className="border-primary-dark w-48 ps-4 lg:w-auto leading-8 py-4">
                 </div>
             </div>
-            <div className="flex gap-6 pl-5">
-                <p className='text-2xl mt-1'>Contact :-</p>
-                <p className='flex gap-4 mt-2 text-xl text-primary-light'>
+            <div className="flex flex-wrap gap-6 pl-5">
+                <p className='text-2xl mt-1 text-nowrap'>Contact :-</p>
+                <p className='flex flex-wrap gap-4 mt-2 text-xl text-primary-light'>
                     <span className='bg-secondary p-1 cursor-pointer rounded-full'>
                         <FaInstagram />
                     </span>
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
                     </span>
                 </p>
             </div>
-            <p className='text-center my-3 text-primary-dark'>Copyright  All Rights lsdhfkshgorgyoerugl weoiuow owero eo bhaskar. — Designed By Codeweb</p>
+            <p className='text-center my-3 text-primary-dark'>Copyright  All Rights Are Reserved. — Designed By <a className='hover:text-secondary' href="#">Codewebzz</a></p>
         </>
     )
 }

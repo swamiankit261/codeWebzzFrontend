@@ -5,7 +5,7 @@ import { GrAnchor } from "react-icons/gr";
 import { IoKeyOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import { TbChartInfographic } from "react-icons/tb";
-import { FaSearchengin } from "react-icons/fa";
+import { FaPhoneVolume, FaSearchengin } from "react-icons/fa";
 import man_up from "../assets/man_up.jpg";
 import webDav from "../assets/dev.png";
 import taili from "../assets/vrd-creative.webp";
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
         <>
             <Navbar />
 
-            <div className={`flex relative md:h-screen py-5 md:py-2 shadow-sm`}>
+            <div className={`flex relative md:h-screen py-5 md:py-2 shadow-sm mt-5`}>
                 <div className="absolute animate-spin hidden lg:block top-20 left-28">
                     <div className="animate-pulse relative">
                         <div className=" w-10 border-2 border-primary-dark rounded rotate-45"></div>
@@ -56,7 +56,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className="lg:w-1/2 place-content-center place-items-center leading-loose pr-5">
                     <p className='text-2xl mb-4'>Design <span className='text-secondary'>&</span> Development</p>
-                    <p className="lg:text-start text-center">codeweb is leading website designing and <span className='text-secondary'>development</span> comapny in Jaipur. We develop different type of dynamic websites like – Matrimonial, Classified, E-Commerce and many more web applications. We are well growth <span className='text-secondary'>web design</span> company in Jaipur and India with new technologies. We make a friendly relationship with our clients and always ready to help them and make out them from their problems.</p>
+                    <p className="lg:text-start text-center">codewebzz is leading website designing and <span className='text-secondary'>development</span> comapny in Jaipur. We develop different type of dynamic websites like – Matrimonial, Classified, E-Commerce and many more web applications. We are well growth <span className='text-secondary'>web design</span> company in Jaipur and India with new technologies. We make a friendly relationship with our clients and always ready to help them and make out them from their problems.</p>
                 </div>
             </div>
 
@@ -246,30 +246,34 @@ const Home: React.FC = () => {
                 </div>
                 <div className="group shadow-lg font-serif rounded-xl w-96 flex flex-col justify-center gap-4 p-8">
                     <p className='text-2xl'><img src={taili} className='transition-all duration-500 ease-in-out group-hover:rotate-45' /></p>
-                    <h1 className="text-secondary text-xl">FREE CONSULTATION
+                    <h1 className="text-secondary text-xl">REQUEST
                         <span className='bg-secondary animate-bounce ml-5 mr-3 p-1 rounded-full inline-flex'></span>
                         <span className='bg-accent p-1 animate-bounce rounded-full inline-flex'></span>
                     </h1>
-                    <p className="text-2xl text-primary-dark">Schedule A Free
-                        Consultation With Our
-                        Specialist</p>
+                    <p className="text-2xl text-primary-dark">Begin Your Adventure
+                        With Experienced
+                        Professionals</p>
                     <div className="text-center">
-                        <button className=' hover:bg-secondary hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mt-5 p-2 text-primary-dark'>Schedule Now</button>
+                        <button className='hover:bg-secondary hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mt-5 p-2 text-primary-dark'>Send Request</button>
                     </div>
 
                 </div>
                 <div className="group shadow-lg font-serif rounded-xl w-96 flex flex-col justify-center gap-4 p-8">
                     <p className='text-2xl'><img src={daile} className='transition-all duration-500 ease-in-out group-hover:scale-110' /></p>
-                    <h1 className="text-secondary text-xl">FREE CONSULTATION
+                    <h1 className="text-secondary text-xl">HELP DESK
                         <span className='bg-secondary animate-bounce ml-5 mr-3 p-1 rounded-full inline-flex'></span>
                         <span className='bg-accent p-1 animate-bounce rounded-full inline-flex'></span>
                     </h1>
-                    <p className="text-2xl text-primary-dark">Schedule A Free
-                        Consultation With Our
-                        Specialist</p>
-                    <div className="text-center">
-                        <button className=' hover:bg-secondary hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mt-5 p-2 text-primary-dark'>Schedule Now</button>
-                    </div>
+                    <p className="text-2xl text-primary-dark">Do You Have Questions Or
+                        Want More Information?
+                        Call Now</p>
+                    <a href='tel:8824451107' className=" text-center font-sans flex justify-center gap-2">
+                        <span className='bg-secondary inline-block cursor-pointer rounded-full'>
+                            <FaPhoneVolume  className='m-1 mx-1.5 text-primary-light text-lg -rotate-12' />
+                        </span>
+                        <span className='text-xl'>+918824451107</span>
+                        {/* <button className=' hover:bg-secondary hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mt-5 p-2 text-primary-dark'>Schedule Now</button> */}
+                    </a>
 
                 </div>
 

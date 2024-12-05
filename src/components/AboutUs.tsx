@@ -9,7 +9,7 @@ const AboutUs: React.FC = () => {
     return (
         <>
             <Navbar />
-            <div className="flex flex-col justify-center p-12 font-serif leading-loose bg-primary-light ">
+            <div className="flex flex-col justify-center p-12 font-serif leading-loose bg-primary-light mt-9">
                 <h1 className='text-3xl text-secondary'>About Us</h1>
                 <p>Your Trusted Partner for Website Design and Digital Marketing Services in India. Your dependable ally for delivering exceptional services tailored specifically for the Indian market. With a steadfast commitment to <span className='text-secondary'>excellence and a proven track record of success</span>, we stand ready to partner with you in achieving remarkable results in India.</p>
             </div>

@@ -8,7 +8,7 @@ const ContactUs: React.FC = () => {
     return (
         <>
             <Navbar />
-            <div className="flex flex-col justify-center p-12 font-serif leading-loose bg-primary-light ">
+            <div className="flex flex-col justify-center p-12 font-serif leading-loose bg-primary-light mt-9">
                 <h1 className='text-3xl text-secondary'>Contact Us</h1>
                 <p>With a steadfast commitment to <span className='text-secondary'>excellence and a proven track record of success</span>, we are dedicated to providing exceptional service and support to our clients across India.</p>
             </div>
