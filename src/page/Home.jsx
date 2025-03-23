@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 import { CgWebsite } from "react-icons/cg";
 import { GrAnchor } from "react-icons/gr";
 import { IoKeyOutline } from "react-icons/io5";
@@ -9,7 +9,7 @@ import man_up from "../assets/man_up.jpg";
 import webDav from "../assets/dev.png";
 import taili from "../assets/vrd-creative.webp";
 import daile from "../assets/vrd-help-desk.webp"
-import Footer from './Footer';
+import Footer from '../components/Footer';
 import { FaPhoneFlip } from 'react-icons/fa6';
 import { NavLink } from 'react-router';
 
