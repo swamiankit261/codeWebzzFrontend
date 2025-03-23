@@ -4,9 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router'
 import { RouterProvider } from 'react-router-dom'
-import Home from './components/Home.jsx'
-import AboutUs from './components/AboutUs.jsx'
-import ContactUs from './components/ContactUs.jsx'
+import Home from './page/Home.jsx'
+import AboutUs from './page/AboutUs.jsx'
+import ContactUs from './page/ContactUs.jsx'
+import Portfolio from './page/Portfolio.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -14,6 +15,7 @@ const router = createBrowserRouter(
       <Route index={true} path='/' element={<Home />} />
       <Route path='/aboutUs' element={<AboutUs />} />
       <Route path='/contact' element={<ContactUs />} />
+      <Route path='/portfolio' element={<Portfolio />} />
       {/* <Route path='/dashboard' element={<Dashboard />} /> */}
       {/* <Route path='*' element={<NotFound />} /> */}
     </Route>

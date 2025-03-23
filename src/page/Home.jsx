@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 import { CgWebsite } from "react-icons/cg";
 import { GrAnchor } from "react-icons/gr";
 import { IoKeyOutline } from "react-icons/io5";
@@ -9,7 +9,7 @@ import man_up from "../assets/man_up.jpg";
 import webDav from "../assets/dev.png";
 import taili from "../assets/vrd-creative.webp";
 import daile from "../assets/vrd-help-desk.webp"
-import Footer from './Footer';
+import Footer from '../components/Footer';
 import { FaPhoneFlip } from 'react-icons/fa6';
 import { NavLink } from 'react-router';
 
@@ -31,7 +31,7 @@ const Home = () => {
                     <p className="text-3xl">Design <span className='text-secondary'>&</span> Development</p>
                     <p className='text-wrap text-center my-2 text-lg'>At CodeWebzz, we are dedicated to delivering top-notch digital solutions that meet your unique business needs.</p>
                     <div className='bg-orange-400 p-1 w-52 rounded-lg mx-auto mt-3'></div>
-                    <NavLink to='/contact' className='hover:bg-secondary z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-4 p-2 text-primary-dark'>
+                    <NavLink to='/contact' className='hover:bg-secondary z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary w-32 mx-auto mt-8 p-2 text-primary-dark'>
                         Contact Us
                     </NavLink>
 

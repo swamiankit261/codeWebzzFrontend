@@ -1,7 +1,7 @@
-import Navbar from './Navbar'
+import Navbar from '../components/Navbar'
 import { FaBrain } from 'react-icons/fa'
 import { MdOutlineMobileFriendly } from 'react-icons/md'
-import Footer from './Footer'
+import Footer from '../components/Footer'
 import { IoKeyOutline } from 'react-icons/io5'
 
 const AboutUs = () => {

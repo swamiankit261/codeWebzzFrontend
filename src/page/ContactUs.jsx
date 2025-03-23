@@ -1,7 +1,7 @@
-import Navbar from './Navbar'
+import Navbar from '../components/Navbar'
 import { FaInstagram } from 'react-icons/fa'
 import { CiFacebook, CiLinkedin } from 'react-icons/ci'
-import Footer from './Footer'
+import Footer from '../components/Footer'
 
 const ContactUs = () => {
     return (
