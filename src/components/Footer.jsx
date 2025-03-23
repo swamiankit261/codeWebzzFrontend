@@ -2,7 +2,8 @@ import { BsTwitterX } from 'react-icons/bs'
 import { CiFacebook, CiLinkedin } from 'react-icons/ci'
 import { FaInstagram, FaMapMarkerAlt } from 'react-icons/fa'
 import { FaPhoneFlip } from 'react-icons/fa6'
-import { MdOutlineMailOutline } from 'react-icons/md'
+import { MdOutlineMailOutline } from 'react-icons/md';
+import logo from "../../public/codewebzzlogo.jpeg";
 
 const Footer = () => {
     return (
@@ -10,9 +11,9 @@ const Footer = () => {
             <div className="flex flex-col gap-5">
                 <div className="flex flex-wrap gap-8 md:gap-0 place-content-evenly text-center lg:text-start font-semibold">
                     <div className=" w-48 lg:w-1/3 leading-8 py-4 flex flex-col justify-between">
-                        <p className='text-xl font-semibold'>
-                            CodeWebzz<span className='font-bold text-secondary'>.</span>com
-
+                        <p className='text-xl text-center font-semibold'>
+                            <img className='h-12 mb-5  mx-auto md:-ml-3 ' src={logo} alt="" />
+                            {/* CodeWebzz<span className='font-bold text-secondary'>.</span>com */}
                         </p>
                         <p className='flex group'>
                             <span><FaMapMarkerAlt className='text-lg mt-1 text-secondary animate-bounce group-hover:animate-none' /></span><a href="https://www.google.com/maps?q=6/431,+Gaj+Path,+Hans+Vihar,+RIICO+Industrial+Area,+Mansarovar,+Jaipur,+Rajasthan+302020" target="_blank">
