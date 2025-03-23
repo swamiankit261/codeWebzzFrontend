@@ -17,6 +17,9 @@ const SideBar = ({ toggleCollapsed, collapsed }) => {
                     <NavLink to="/portfolio">
                         <div className="hover:text-secondary cursor-pointer">Our portfolio</div>
                     </NavLink>
+                    <NavLink to="/clients">
+                        <div className="hover:text-secondary cursor-pointer">Our clients</div>
+                    </NavLink>
                     <NavLink to="/contact">
                         <div className="hover:text-secondary cursor-pointer">Contact us</div>
                     </NavLink>
