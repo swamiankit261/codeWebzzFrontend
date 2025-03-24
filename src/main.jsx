@@ -8,6 +8,7 @@ import Home from './page/Home.jsx'
 import AboutUs from './page/AboutUs.jsx'
 import ContactUs from './page/ContactUs.jsx'
 import Portfolio from './page/Portfolio.jsx'
+import NotFound from './page/NotFound.jsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -17,7 +18,7 @@ const router = createHashRouter(
       <Route path='/contact' element={<ContactUs />} />
       <Route path='/portfolio' element={<Portfolio />} />
       {/* <Route path='/dashboard' element={<Dashboard />} /> */}
-      {/* <Route path='*' element={<NotFound />} /> */}
+      <Route path='*' element={<NotFound />} />
     </Route>
   ),
   { basename: "/" }

@@ -16,7 +16,7 @@ function Viewcard({
                     loading='lazy'
                 />
             </div>
-            <p className="mt-2 text-lg font-medium text-gray-700">Title: {title}</p>
+            {/* <p className="mt-2 text-lg font-medium text-gray-700">Title: {title}</p> */}
         </a>
     );
 }
