@@ -34,7 +34,7 @@ const AboutUs = () => {
                             <p>We create feature-packed and highly functional mobile applications to meet all business and industry needs.</p>
                         </div>
                     </div>
-                    <div className="lg:w-96 group shadow-2xl p-7 text-center rounded-md leading-8">
+                    <div className="lg:w-96 group shadow-2xl p-7 mx-auto text-center rounded-md leading-8">
                         <div className="inline-block"><IoKeyOutline className='text-3xl ' /></div>
                         <div className="">
                             <h1 className='text-2xl my-5 group-hover:text-secondary-dark'>Website Hosting</h1>

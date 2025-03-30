@@ -5,8 +5,8 @@ import { IoKeyOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import { TbChartInfographic } from "react-icons/tb";
 import { FaPhoneVolume, FaRegHandshake, FaSearchengin } from "react-icons/fa";
-// import man_up from "../assets/man_up.png";
-// import webDav from "../assets/dev.png";
+import man_up from "../assets/man_up-preview.png";
+import webDav from "../assets/dev.png";
 import taili from "../assets/vrd-creative.webp";
 import daile from "../assets/vrd-help-desk.webp"
 import Footer from '../components/Footer';
@@ -72,7 +72,7 @@ const Home = () => {
 
             <div className="flex flex-wrap  font-serif ">
                 <div className="lg:w-1/2 mx-auto px-10">
-                    {/* <img className='' src={webDav} alt="" /> */}
+                    <img className='' src={webDav} alt="" />
                 </div>
                 <div className="lg:w-1/2 place-content-center place-items-center leading-loose pr-5">
                     <p className='text-2xl mb-4'>Design <span className='text-secondary-dark'>&</span> Development</p>
@@ -124,7 +124,7 @@ const Home = () => {
 
                     </div>
                     <div className="w-full lg:w-1/3 lg:p-4 px-24 py-2 flex justify-center items-center">
-                        {/* <img className='w-1/2' src={man_up} alt="" /> */}
+                        <img className='w-1/2' src={man_up} alt="" />
 
                     </div>
                     <div className="flex flex-col gap-16 lg:w-1/3">

@@ -7,7 +7,7 @@ function Viewcard({
     webURL = 'google.com'
 }) {
     return (
-        <a href={webURL} key={key} className="w-80">
+        <a href={webURL} key={key} target='_blank' className="w-80">
             <div className="w-full h-[480px] overflow-hidden border-2 rounded-sm shadow-lg cursor-pointer transition-transform duration-500 hover:scale-105">
                 <img
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"

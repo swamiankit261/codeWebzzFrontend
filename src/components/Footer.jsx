@@ -36,8 +36,8 @@ const Footer = () => {
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/aboutUs">About Us</NavLink>
                         <NavLink to="/contact">Contact Us</NavLink>
-                        <p>First link</p>
-                        <p>First link</p>
+                        <NavLink to="/portfolio">Our portfolio</NavLink>
+                        <p>Our clients</p>
                     </div>
                     <div className="border-primary-dark w-48 ps-4 lg:w-auto leading-8 py-4">
                         <p className='text-2xl'>Projects</p>
