@@ -3,9 +3,13 @@ import './App.css'
 
 function App() {
 
+  // document.body.classList.add("theme-monochrome");
+
   return (
     <>
-      <Outlet />
+      <div className="bg-primary-light p-[2rem]">
+        <Outlet />
+      </div>
     </>
   )
 }

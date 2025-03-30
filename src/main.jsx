@@ -2,15 +2,15 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { createHashRouter, createRoutesFromElements, Route } from 'react-router'
+import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router'
 import { RouterProvider } from 'react-router-dom'
-import Home from './page/Home.jsx'
-import AboutUs from './page/AboutUs.jsx'
-import ContactUs from './page/ContactUs.jsx'
-import Portfolio from './page/Portfolio.jsx'
-import NotFound from './page/NotFound.jsx'
+import Home from './pages/Home.jsx'
+import AboutUs from './pages/AboutUs.jsx'
+import ContactUs from './pages/ContactUs.jsx'
+import Portfolio from './pages/Portfolio.jsx'
+import NotFound from './pages/NotFound.jsx'
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index={true} path='/' element={<Home />} />

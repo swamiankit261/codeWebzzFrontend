@@ -2,26 +2,28 @@ import { GiSplitCross } from "react-icons/gi";
 import { NavLink } from 'react-router';
 // import { Link } from 'react-router';
 
-// eslint-disable-next-line react/prop-types
-const SideBar = ({ toggleCollapsed, collapsed }) => {
+const SideBar = (props) => {
+
+    const { toggleCollapsed, collapsed } = props || {};
+
     return (
         <>
-            <div className={`fixed right-0 top-0 z-10 bg-primary-light pt-5 w-56 h-screen transition-transform duration-500 ease-in-out ${collapsed ? "translate-x-full" : "translate-x-0"}`} >
-                <div className=" w-full text-end mt-5"><GiSplitCross className='text-2xl cursor-pointer absolute top-8 right-12 text-secondary' onClick={toggleCollapsed} /></div>
+            <div className={`fixed right-0 top-0 z-10  bg-primary-light pt-5 w-56 h-screen transition-transform duration-500 ease-in-out ${collapsed ? "translate-x-full" : "translate-x-0"}`} >
+                <div className=" w-full text-end mt-5"><GiSplitCross className='text-2xl cursor-pointer absolute top-8 right-12 text-secondary-dark' onClick={toggleCollapsed} /></div>
                 <div className="p-4 pt-10 flex flex-col items-start gap-2">
                     <NavLink to="/" >
-                        <div className="hover:text-secondary cursor-pointer rounded-sm">Home</div>
+                        <div className="hover:text-secondary-dark cursor-pointer rounded-sm">Home</div>
                     </NavLink>
-                    <NavLink to="/aboutUs"><div className="hover:text-secondary cursor-pointer my-2">About Us</div></NavLink>
-                    <div className="hover:text-secondary cursor-pointer mb-2">Services</div>
+                    <NavLink to="/aboutUs"><div className="hover:text-secondary-dark cursor-pointer my-2">About Us</div></NavLink>
+                    <div className="hover:text-secondary-dark cursor-pointer mb-2">Services</div>
                     <NavLink to="/portfolio">
-                        <div className="hover:text-secondary cursor-pointer">Our portfolio</div>
+                        <div className="hover:text-secondary-dark cursor-pointer">Our portfolio</div>
                     </NavLink>
                     {/* <NavLink to="/clients">
-                        <div className="hover:text-secondary cursor-pointer">Our clients</div>
+                        <div className="hover:text-secondary-dark cursor-pointer">Our clients</div>
                     </NavLink> */}
                     <NavLink to="/contact">
-                        <div className="hover:text-secondary cursor-pointer">Contact us</div>
+                        <div className="hover:text-secondary-dark cursor-pointer">Contact us</div>
                     </NavLink>
                 </div>
             </div >
