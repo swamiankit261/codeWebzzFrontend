@@ -256,7 +256,7 @@ const Home = () => {
                         <span className='bg-secondary-dark animate-bounce ml-5 mr-3 p-1 rounded-full inline-flex'></span>
                         <span className='bg-accent p-1 animate-bounce rounded-full inline-flex'></span>
                     </h1>
-                    <p className="text-2xl text-primary-dark">Schedule A Free
+                    <p className="text-2xl ">Schedule A Free
                         Consultation With Our
                         Specialist</p>
                     <div className="text-center">
@@ -270,7 +270,7 @@ const Home = () => {
                         <span className='bg-secondary-dark animate-bounce ml-5 mr-3 p-1 rounded-full inline-flex'></span>
                         <span className='bg-accent p-1 animate-bounce rounded-full inline-flex'></span>
                     </h1>
-                    <p className="text-2xl text-primary-dark">Begin Your Adventure
+                    <p className="text-2xl ">Begin Your Adventure
                         With Experienced
                         Professionals</p>
                     <div className="text-center">
@@ -284,14 +284,14 @@ const Home = () => {
                         <span className='bg-secondary-dark animate-bounce ml-5 mr-3 p-1 rounded-full inline-flex'></span>
                         <span className='bg-accent p-1 animate-bounce rounded-full inline-flex'></span>
                     </h1>
-                    <p className="text-2xl text-primary-dark">Do You Have Questions Or
+                    <p className="text-2xl ">Do You Have Questions Or
                         Want More Information?
                         Call Now</p>
                     <a href='tel:8824451107' className=" text-center font-sans flex justify-center gap-2">
                         <span className='bg-secondary-dark inline-block cursor-pointer rounded-full'>
-                            <FaPhoneVolume className='m-1 mx-1.5 text-primary-light text-lg -rotate-12' />
+                            <FaPhoneVolume className='m-1 mx-1.5  text-lg -rotate-12 text-accent' />
                         </span>
-                        <span className='text-xl'>+918824451107</span>
+                        <span className='text-xl '>+918824451107</span>
                         {/* <button className=' hover:bg-secondary-dark hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 hover:text-primary-light border border-1 border-secondary-dark w-32 mt-5 p-2 text-primary-dark'>Schedule Now</button> */}
                     </a>
 

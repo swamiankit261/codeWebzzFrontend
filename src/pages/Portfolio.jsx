@@ -21,7 +21,7 @@ const Portfolio = () => {
                     <h1 className="text-2xl font-bold text-gray-900 mb-4">
                         Our Technical Proficiency:
                     </h1>
-                    <ul className="list-none space-y-3 text-gray-700">
+                    <ul className="list-none space-y-3">
                         <li>
                             <strong>Front-End Development:</strong> Proficient in HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React.js, Redux, Angular.js, and Next.js, we craft responsive and intuitive user interfaces that enhance user experience.
                         </li>
@@ -39,7 +39,8 @@ const Portfolio = () => {
             </div>
 
             <div className="my-20 px-4">
-                <p className="text-center my-4 text-3xl font-serif font-semibold text-gray-800">
+                <div className="bg-secondary-dark p-1 w-1/2 mx-auto rounded-t-xl "></div>
+                <p className="text-center my-4 text-3xl font-serif font-semibold">
                     Our Projects
                 </p>
 
@@ -68,7 +69,7 @@ const Portfolio = () => {
                 <div className="text-center mt-6">
                     <button
                         onClick={() => setshowAll(!showAll)}
-                        className="px-5 py-2 text-white bg-blue-600 rounded-lg shadow-md transition-transform duration-300 hover:bg-blue-700 hover:scale-95">
+                        className="hover:bg-primary-dark z-0 relative animate-bounce hover:scale-95  rounded-tr-xl rounded-bl-xl transition-all duration-300 border border-1 border-secondary-light w-32 mx-auto mt-4 p-2 hover:text-white">
                         {showAll ? "Show Less" : "More About Us"}
                     </button>
 

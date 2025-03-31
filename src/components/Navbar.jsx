@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import SideBar from "./SideBar";
 import { NavLink } from "react-router-dom";
 
-const themes = ["primary", "pastel", "nature", "ocean", "sunset", "monochrome", "candy", "forest", "space", "sakura","retro", "lava", "ice", "sandstorm", "aurora"];
+const themes = ["primary", "dark", "pastel", "nature", "ocean", "sunset", "monochrome", "candy", "forest", "sakura", "retro", "lava", "ice", "sandstorm", "aurora"];
 
 const Navbar = () => {
     const [collapsed, setCollapsed] = useState(true);
@@ -26,7 +26,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="px-6 align-middle py-3 shadow-sm fixed top-0 z-20 w-[95%] bg-primary-light bg-opacity-60">
+        <div className="px-6 align-middle py-3 text-theme shadow-sm fixed top-0 z-20 w-[95%] bg-primary-light bg-opacity-60">
             <div className="flex justify-between align-middle">
                 <NavLink to="/" className="z-10">
                     <div className="text-2xl font-semibold cursor-pointer">
@@ -54,7 +54,7 @@ const Navbar = () => {
             </div>
 
             <SideBar toggleCollapsed={toggleCollapsed} collapsed={collapsed} />
-        </div>
+        </div> 
     );
 };
 

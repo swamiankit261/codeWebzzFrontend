@@ -12,6 +12,16 @@
     --accent: #FFB300;
 }
 
+[data-theme="dark"] {
+    --primary-light: #3A3A3A;
+    --primary-default: #2D2D2D;
+    --primary-dark: #000000;
+    --secondary-light: #1E1E1E;
+    --secondary-dark: #121212;
+    --accent: #BB86FC;
+    --text-color: #EAEAEA;
+}
+
 /* Pastel Theme */
 [data-theme="pastel"] {
     --primary-light: #FFEBF6;
@@ -176,13 +186,12 @@
 
 
 /* Apply Colors to Tailwind Classes */
+.text-theme { color: var(--text-color); }
 .bg-primary-light { background-color: var(--primary-light); }
 .bg-primary-default { background-color: var(--primary-default); }
 .bg-primary-dark { background-color: var(--primary-dark); }
-
 .bg-secondary-light { background-color: var(--secondary-light); }
 .bg-secondary-dark { background-color: var(--secondary-dark); }
-
 .text-accent { color: var(--accent); }
 
 

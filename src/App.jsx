@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-primary-light p-[2rem]">
+      <div className="bg-primary-light text-theme p-[2rem]">
         <Outlet />
       </div>
     </>

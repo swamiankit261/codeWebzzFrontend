@@ -12,6 +12,7 @@ export default {
 				'bounce-fast': 'bounce 0.5s infinite',
 				'spin-slow': 'spin 3s linear infinite',
 				'spin-fast': 'spin 0.5s linear infinite',
+				'border-move': 'borderMove 2s linear infinite',
 				move: 'move 45s linear infinite',
 				moveup: 'moveup 15s linear infinite'
 			},
@@ -40,7 +41,12 @@ export default {
 						opacity: '1',
 						borderRadius: '40%'
 					}
-				}
+				},
+				borderMove: {
+					'0%': { borderColor: 'transparent' },
+					'50%': { borderColor: '#3b82f6' }, // Blue color
+					'100%': { borderColor: 'transparent' },
+				},
 			},
 			colors: {
 				primary: {
