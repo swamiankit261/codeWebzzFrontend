@@ -13,7 +13,7 @@ import {
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 
-const statuses = ["primary", "dark", "pastel", "nature", "ocean", "sunset", "monochrome", "candy", "forest", "sakura", "retro", "lava", "ice", "sandstorm", "aurora"];
+const statuses =  ["primary", "dark", "ocean", "sunset", "candy", "forest", "lava",  "aurora"];
 
 export function Combobox(props) {
     const { toggleCollapsed } = props || {};

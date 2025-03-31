@@ -75,7 +75,7 @@ const ContactUs = () => {
                             </div>
                         </div>
                         <div className=" p-2">
-                            <label className='text-secondary-dark' htmlFor="details">Project Details</label>
+                            <label className='hover:text-secondary-dark' htmlFor="details">Project Details</label>
                             <textarea className='w-full text-primary-dark bg-primary-light  p-1 border focus:outline-none focus:border-secondary-dark' name="" id="details" rows={4} placeholder='What is your project about?' />
                         </div>
                         <div className="p-2">
