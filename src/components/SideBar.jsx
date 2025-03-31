@@ -9,7 +9,7 @@ const SideBar = (props) => {
 
     return (
         <>
-            <div className={`fixed shadow-2xl right-0 top-0 z-20 bg-primary-light pt-5 w-56 h-screen transition-transform duration-500 ease-in-out ${collapsed ? "translate-x-full" : "translate-x-0"}`} >
+            <div className={`fixed shadow-md right-0 top-0 z-20 bg-primary-light pt-5 w-56 h-screen transition-transform duration-500 ease-in-out ${collapsed ? "translate-x-full" : "translate-x-0"}`} >
                 <div className="cursor-pointer w-fit z-20 absolute top-5 right-14 text-secondary-dark" onClick={toggleCollapsed}><GiSplitCross className='text-2xl cursor-pointer' /></div>
                 <div className="p-4 pt-10 flex flex-col items-start gap-2">
                     <NavLink to="/" >
